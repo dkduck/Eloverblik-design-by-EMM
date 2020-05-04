@@ -1,0 +1,14 @@
+type: entities
+entities:
+  - entity: sensor.energy_nattergalevej_yesterday
+    icon: mdi:power-plug
+    name: Igår
+  - entity: sensor.energy_nattergalevej_month
+    icon: mdi:power-plug
+    name: Sidste måned
+  - entity: sensor.energy_nattergalevej
+    icon: mdi:power-plug
+    name: Total
+  - entity: sensor.energyprices_nattergalevej
+    icon: mdi:cash
+    name: Pris kWh

@@ -1,0 +1,17 @@
+type: 'custom:bar-card'
+stack: horizontal
+entities:
+    - entity: sensor.eloverblik_energy_total
+
+direction: up
+height: 283px
+width: 100px
+color: green
+max: 50
+state: on
+speed: 5
+positions:
+  icon: 'off'
+  indicator: 'on'
+  title: inside
+  value: outside

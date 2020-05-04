@@ -1,0 +1,26 @@
+title: El
+panel: true
+cards:
+
+  - type: custom:layout-card
+    layout: vertical
+    column_num: 2
+    max_columns: 2
+    max_width: [30%,70%%]
+    cards:
+
+      - !include cards/el_overblik/eloverblik_overskrift.yaml
+      - !include cards/el_overblik/eloverblik_info.yaml
+      - !include cards/el_overblik/eloverblik_overskrift_dag.yaml
+      - !include cards/el_overblik/eloverblik_total.yaml
+
+
+      - break
+
+      - !include cards/el_overblik/eloverblik_overskrift_time.yaml
+      - !include cards/el_overblik/eloverblik_00_06.yaml
+      - !include cards/el_overblik/eloverblik_07_12.yaml
+      - !include cards/el_overblik/eloverblik_13_18.yaml
+      - !include cards/el_overblik/eloverblik_19_24.yaml
+
+      - break

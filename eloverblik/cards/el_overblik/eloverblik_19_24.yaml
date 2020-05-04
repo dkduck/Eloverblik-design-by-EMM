@@ -1,0 +1,20 @@
+type: 'custom:bar-card'
+stack: horizontal
+entities:
+    - entity: sensor.eloverblik_energy_18_19
+    - entity: sensor.eloverblik_energy_19_20
+    - entity: sensor.eloverblik_energy_20_21
+    - entity: sensor.eloverblik_energy_21_22
+    - entity: sensor.eloverblik_energy_22_23
+    - entity: sensor.eloverblik_energy_23_24
+
+direction: up
+height: 120px
+width: 100px
+color: red
+max: 4
+positions:
+  icon: 'off'
+  indicator: 'on'
+  title: outside
+  value: inside
