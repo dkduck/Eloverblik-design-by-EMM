@@ -1,3 +1,3 @@
-# Eloverblik-design-by-EMM
+# Eloverblik-design
 
 Bare min lille måde at designe overblikket på
