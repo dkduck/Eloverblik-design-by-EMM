@@ -10,7 +10,6 @@ cards:
     cards:
 
       - !include cards/el_overblik/eloverblik_overskrift.yaml
-      - !include cards/el_overblik/eloverblik_info.yaml
       - !include cards/el_overblik/eloverblik_overskrift_dag.yaml
       - !include cards/el_overblik/eloverblik_total.yaml
 
